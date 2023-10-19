@@ -8,6 +8,7 @@ class Animal {
   }
 
   makeSound() {
+	console.log('The '+this.species+ ' makes a sound')
     // This should be implemented in subclasses
   }
 }
